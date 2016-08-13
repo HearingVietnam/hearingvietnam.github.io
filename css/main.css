@@ -189,3 +189,45 @@ featurette-heading {
   margin-bottom: 30px;
 }
 
+/* flags */
+.icon-flags {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  float: left;
+  display: block; /* This is required */
+}
+
+.icon-flags.size-normal {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-flags.taiwan {
+  background: url(../assets/images/flags/taiwan.png);
+  background-size: cover;
+}
+
+.icon-flags.japan {
+  background: url(../assets/images/flags/japan.png);
+  background-size: cover;
+}
+
+.icon-flags.south-korea {
+  background: url(../assets/images/flags/south-korea.png);
+  background-size: cover;
+}
+
+.icon-flags.vietnam {
+  background: url(../assets/images/flags/vietnam.png);
+  background-size: cover;
+}
+
+.icon-flags.united-kingdom {
+  background: url(../assets/images/flags/united-kingdom.png);
+  background-size: cover;
+}
+
