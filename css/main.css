@@ -126,6 +126,7 @@
 
 /* body */
 body {
+  padding-bottom: 30px;
   color: #5a5a5a;
 }
 
@@ -148,3 +149,25 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+/* featurette */
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.footer {
+  margin-top: -40px;
+}
+
+.footer > .row > .col-sm-2,
+.footer > .row > .col-sm-4 {
+  margin-bottom: 30px;
+}
+
