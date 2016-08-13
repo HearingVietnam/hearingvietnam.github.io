@@ -4,7 +4,7 @@
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #91DEFF;
 }
 
 .navbar-nav > li > a {
@@ -127,6 +127,7 @@
 /* body */
 body {
   padding-bottom: 30px;
+  background-color: #91DEFF;
   color: #5a5a5a;
 }
 
