@@ -110,6 +110,9 @@
   .carousel-caption > p {
     font-size: 15pt;
   }
+  .carousel-caption > button > h1 {
+    font-size: 15pt;
+  }
 }
 
 @media (max-width: 436px) {
@@ -125,7 +128,10 @@
   .carousel-caption > p {
     font-size: 10pt;
   }
- 
+  .carousel-caption > button > h1 {
+    font-size: 15pt;
+  }
+
 }
 
 @media (max-width: 323px) {
@@ -136,10 +142,13 @@
     top: 0;
   }
   .carousel-caption > h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .carousel-caption > p {
-    font-size: 15pt;
+    font-size: 10pt;
+  }
+  .carousel-caption > button > h1 {
+    font-size: 10pt;
   }
 
 }
