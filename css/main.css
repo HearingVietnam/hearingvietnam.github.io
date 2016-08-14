@@ -177,7 +177,7 @@ body {
 }
 
 /* Thin out the marketing headings */
-featurette-heading {
+.featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
@@ -187,9 +187,9 @@ featurette-heading {
   margin-top: -40px;
 }
 
-.footer > .row > .col-sm-2,
-.footer > .row > .col-sm-4 {
-  margin-bottom: 30px;
+.footer > .container > .row > .col-sm-2,
+.footer > .container > .row > .col-sm-4 {
+  margin-bottom: 40px;
 }
 
 /* flags */
