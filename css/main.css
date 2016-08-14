@@ -1,3 +1,9 @@
+/* The code is written by Chiayo Lin */
+
+.navbar-whopper {
+  border-top: 2px solid #008FFF;
+}
+
 /* navbar */
 .navbar-static-top {
   min-height: 80px;
