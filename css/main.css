@@ -39,7 +39,7 @@
 
 /* carousel */
 .carousel {
-    height: 500px;
+    height: 420px;
     margin-bottom: 80px;
 }
 
@@ -68,7 +68,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 500px;
+    height: 420px;
     background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -81,7 +81,7 @@
 /* an uguly way to make the carousel responsive */
 @media (max-width: 870px) {
   .carousel, .carousel .item {
-    height: 460px;
+    height: 420px;
   }
   .carousel-inner > .item > img { 
     top: 0;
