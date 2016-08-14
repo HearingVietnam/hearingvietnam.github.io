@@ -45,7 +45,7 @@
 
 /* carousel */
 .carousel {
-    height: 420px;
+    height: 320px;
     margin-bottom: 80px;
 }
 
@@ -74,12 +74,12 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 420px;
+    height: 320px;
     background-color: #777;
 }
 .carousel-inner > .item > img {
     position: absolute;
-    top: -40%;
+    top: -80%;
     left: 0;
     min-width: 100%;
 }
@@ -87,7 +87,7 @@
 /* an uguly way to make the carousel responsive */
 @media (max-width: 870px) {
   .carousel, .carousel .item {
-    height: 420px;
+    height: 320px;
   }
   .carousel-inner > .item > img { 
     top: 0;
@@ -96,7 +96,7 @@
 
 @media (max-width: 670px) {
   .carousel, .carousel .item {
-    height: 420px;
+    height: 320px;
   }
   .carousel-inner > .item > img { 
     top: 0;
@@ -105,7 +105,7 @@
 
 @media (max-width: 610px) {
   .carousel, .carousel .item {
-    height: 350px;
+    height: 310px;
   }
   .carousel-inner > .item > img { 
     top: 0;
