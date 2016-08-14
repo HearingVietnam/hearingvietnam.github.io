@@ -43,6 +43,14 @@
     margin-bottom: 30px;
 }
 
+.carousel > .carousel-inner > .item > img {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px); 
+}
+
 /* since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
