@@ -40,7 +40,7 @@
 /* carousel */
 .carousel {
     height: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .carousel > .carousel-inner > .item > img {
