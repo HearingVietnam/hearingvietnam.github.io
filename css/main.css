@@ -54,6 +54,7 @@
 /* since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  margin-bottom: 30px;
 }
 
 .carousel-caption > p {
