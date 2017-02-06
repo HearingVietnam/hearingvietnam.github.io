@@ -122,7 +122,7 @@ body {
 
 /* banner */
 .banner-wrapper {
-  margin-top: 0px;
+  margin-top: 80px;
   width: 100%;
   max-height: 560px;
   position: relative;
@@ -155,14 +155,20 @@ body {
 }
 
 .about-us-img-align {
- margin-top: -80px;
+ margin-top: -180px;
  width: 100%;
- overflow: hidden;
+ height: 100%;
+}
+
+@media (max-width: 1280px) {
+  .about-us-img-align {
+    margin-top: -100px;
+  }
 }
 
 @media (max-width: 735px) {
   .about-us-img-align {
-    margin-top: 80px;
+    margin-top: 0px;
   }
 }
 
